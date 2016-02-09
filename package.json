@@ -1,0 +1,27 @@
+{
+  "name": "tfy",
+  "version": "1.0.0",
+  "description": "Simple thenify wrapper with context binding ",
+  "main": "tfy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnhof/tfy.git"
+  },
+  "keywords": [
+    "thenify",
+    "tfy",
+    "yield"
+  ],
+  "author": "John Hofrichter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnhof/tfy/issues"
+  },
+  "homepage": "https://github.com/johnhof/tfy#readme",
+  "dependencies": {
+    "thenify": "^3.2.0"
+  }
+}

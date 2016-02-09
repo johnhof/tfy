@@ -1,8 +1,3 @@
-# tfy
-
-Simple thenify wrapper with context binding. See [thenify](https://github.com/thenables/thenify) for more documentation
-
-```javascript
 'use strict';
 
 let co = require('co');
@@ -27,5 +22,3 @@ co(function *() {
   console.log(result) // 'bar'
 
 }).catch((e) => { console.log(e.stack); });
-
-```
