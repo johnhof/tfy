@@ -6,7 +6,7 @@ Simple thenify wrapper with context binding. See [thenify](https://github.com/th
 'use strict';
 
 let co = require('co');
-let tfy = require('./tfy');
+let tfy = require('tfy');
 let thenify = require('thenify');
 
 function Foo () { this.name = 'bar'; }
@@ -27,5 +27,4 @@ co(function *() {
   console.log(result) // 'bar'
 
 }).catch((e) => { console.log(e.stack); });
-
 ```
